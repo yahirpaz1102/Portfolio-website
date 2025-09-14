@@ -12,8 +12,8 @@ export const portfolioData = {
             role: "Sales Associate",
             company: "Boost Mobile",
             duration: "Nov 2020 - May 2023",
-            description: "Delivered personalized customer service and mobile service recommendations to improve" +
-                " satisfaction and sales. Resolved technical issues with phones and service plans in a high volume " +
+            description: "Delivered personalized customer service and mobile service recommendations were provided to improve" +
+                " customer satisfaction and sales. Resolved technical issues with phones and service plans in a high-volume " +
                 "retail environment. Strengthened sales, upselling, and communication skills through daily customer interactions."
         }
     ],
@@ -22,8 +22,8 @@ export const portfolioData = {
             role: "Mentor",
             company: "UNC Greensboro Mentor Collective Program",
             duration: "Fall 2024 - Present",
-            description: "Guided incoming first year and transfer students through their academic and social transition to " +
-                "university life. Advised mentees on campus resources, and effective study habits to promote student success. " +
+            description: "Guided first-year and transfer students through their academic and social transition to " +
+                "university life. Advised mentees on campus resources and effective study habits to promote student success. " +
                 "Developed strong communication and leadership skills by providing actionable advice and support for three " +
                 "consecutive semesters."
         }
@@ -32,11 +32,12 @@ export const portfolioData = {
         {
             title: "React/Tailwind Portfolio",
             subtitle: "Personal Portfolio Website",
-            description: "A dynamic, single page portfolio built from scratch to showcase my experience, skills, and projects. " +
-                "Features a sleek, terminal inspired UI, a dark/light mode toggle, and responsive design for all devices. This " +
-                "project demonstrates my ability to blend modern frontend technologies with a unique design vision.",
-            tech: ["React", "JavaScript", "Tailwind CSS", "Vite"],
-            repoUrl: "https://github.com/yahirpaz1102/Personal-Portfolio",
+            description: "A single page dynamic portfolio built from scratch to showcase my experience, skills, and projects. " +
+                "Deployed the website using Vercel with a customized domain. Features a sleek, terminal inspired UI, a dark/light " +
+                "mode toggle, and responsive design for all devices. This project demonstrates my ability to blend modern frontend " +
+                "technologies with a unique design vision. ",
+            tech: ["React", "JavaScript", "TailwindCSS", "Vite"],
+            repoUrl: "https://github.com/yahirpaz1102/Portfolio-website",
         },
         {
             title: "Spartan Small Business Manager",
@@ -45,7 +46,7 @@ export const portfolioData = {
                 " the provider module. I engineered the backend RESTful APIs with Java and Spring Boot to manage all business logic," +
                 " including products, events, and profile management. For the frontend, I constructed a dynamic and responsive dashboard" +
                 " using FreeMarker and Bootstrap, which allowed providers to perform CRUD operations on their profiles and products." +
-                " I also designed the supporting MySQL database schema and integrated a data analytics module.",
+                " I also designed the supporting MySQL database schema and integrated a data analysis module.",
             tech: ["Java", "Spring Boot", "MySQL", "FreeMarker", "Bootstrap"],
             repoUrl: "https://github.com/raliahm/SpartanSmallBusinessManager/tree/provider_mvc_app",
         },
@@ -75,7 +76,7 @@ export const portfolioData = {
         },
         {
             category: "Frameworks/Tools",
-            list: ["Spring Boot", "Laravel", "Git/Github", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Blade", "FreeMarker", "Bootstrap", "TailwindCSS"]
+            list: ["Spring Boot", "Laravel", "Git/Github", "VS Code", "JetBrains IDEs", "NetBeans", "Postman", "Blade", "FreeMarker", "Bootstrap", "TailwindCSS", "Vercel"]
         },
         {
             category: "Databases",
@@ -83,7 +84,7 @@ export const portfolioData = {
         },
         {
             category: "Other",
-            list: ["Object-Oriented Programming (OOP)", "Data Structures", "REST APIs", "MVC", "Agile Collaboration", "Trello"]
+            list: ["Object-Oriented Programming (OOP)", "Data Structures", "REST APIs", "MVC", "Agile Collaboration", "Trello", "Latex"]
         },
         {
             category: "Languages",

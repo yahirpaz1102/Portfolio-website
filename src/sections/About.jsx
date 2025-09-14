@@ -8,13 +8,13 @@ const About = () => (
             <TerminalWindow title="~/about_me.txt">
                 <h2 className="text-3xl font-bold font-mono text-primary mb-4">about_me<span className="animate-blink text-accent">_</span></h2>
                 <p className="text-foreground/90 mb-4">
-                    My background combines hands on experience in full stack web development with a proven foundation in sales and customer service.
+                    My background combines hands-on experience in full stack web development with a proven foundation in sales and customer service.
                     This dual experience allows me to not only build effective applications but also to understand client needs, communicate clearly,
                     and collaborate effectively in agile team environments.
                 </p>
                 <p className="text-foreground/90">
-                    Beyond coding, I am deeply interested in the full project lifecycle, from initial planning to final deployment. I succeed at
-                    translating complex requirements into practical, user-focused solutions that successfully meet project goals.
+                    Beyond coding, I am interested in the full project lifecycle, from initial planning to final deployment. I succeed at
+                    translating complex requirements into practical and user-focused solutions that successfully meet project goals.
                 </p>
                 <div className="mt-6">
                     <a
