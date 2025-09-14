@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --background-alt: 0 0% 94%;
+        --foreground: 0 0% 0%;
+        --primary: 211 100% 50%;
+        --primary-foreground: 0 0% 100%;
+        --accent: 136 58% 44%;
+        --window-bg: 0 0% 97%;
+    }
+
+    .dark {
+        --background: 0 0% 0%;
+        --background-alt: 0 0% 7%;
+        --foreground: 0 0% 100%;
+        --primary: 198 100% 50%;
+        --primary-foreground: 0 0% 0%;
+        --accent: 128 78% 53%;
+        --window-bg: 0 0% 10%;
+    }
+
+    body {
+        @apply bg-background text-foreground transition-colors duration-300 font-mono;
+        scroll-behavior: smooth;
+    }
+}
+
+@layer utilities {
+    .bg-grid-pattern {
+        background-image: radial-gradient(hsl(var(--foreground) / 0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+    }
+
+    .animate-pan-grid {
+        animation: pan-grid 30s linear infinite;
+    }
+
+    @keyframes pan-grid {
+        0% { background-position: 0% 0%; }
+        100% { background-position: 20px 20px; }
+    }
+}
+
+@layer components {
+    .animate-blink {
+        animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+        from, to {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .animate-fade-in {
+        animation: fade-in 0.5s ease-out forwards;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
