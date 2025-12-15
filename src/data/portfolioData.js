@@ -21,7 +21,7 @@ export const portfolioData = {
         {
             role: "Mentor",
             company: "UNC Greensboro Mentor Collective Program",
-            duration: "Fall 2024 - Present",
+            duration: "August 2024 - December 2025",
             description: "Guided first-year and transfer students through their academic and social transition to " +
                 "university life. Advised mentees on campus resources and effective study habits to promote student success. " +
                 "Developed strong communication and leadership skills by providing actionable advice and support for three " +
@@ -29,6 +29,16 @@ export const portfolioData = {
         }
     ],
     projects: [
+        {
+            title: "FuelAI",
+            subtitle: "AI-Powered Fitness & Wellness Platform",
+            description: "Co-developed a cross-platform fitness application that leverages AI to generate personalized meal plans, " +
+                "recipes, and workout schedules. As the backend lead, I engineered the PostgreSQL database schema hosted on Railway to " +
+                "synchronize data between the React web dashboard and React Native mobile app. I also designed and implemented a full " +
+                "stack Admin Dashboard using Laravel, React, and TailwindCSS, enabling administrators to manage users and moderate community forum content.",
+            tech: ["Laravel", "PHP", "PostgreSQL", "React", "TailwindCSS", "OpenRouter API"],
+            repoUrl: "https://github.com/lbbowles/FuelAI",
+        },
         {
             title: "React/Tailwind Portfolio",
             subtitle: "Personal Portfolio Website",
